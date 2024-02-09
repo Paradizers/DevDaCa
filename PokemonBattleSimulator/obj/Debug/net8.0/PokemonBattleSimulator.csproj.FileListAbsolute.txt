@@ -1,0 +1,15 @@
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\bin\Debug\net8.0\PokemonBattleSimulator.exe
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\bin\Debug\net8.0\PokemonBattleSimulator.deps.json
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\bin\Debug\net8.0\PokemonBattleSimulator.runtimeconfig.json
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\bin\Debug\net8.0\PokemonBattleSimulator.dll
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\bin\Debug\net8.0\PokemonBattleSimulator.pdb
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.AssemblyInfoInputs.cache
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.AssemblyInfo.cs
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.csproj.CoreCompileInputs.cache
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.sourcelink.json
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.dll
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\refint\PokemonBattleSimulator.dll
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.pdb
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\PokemonBattleSimulator.genruntimeconfig.cache
+C:\School\projecten\leren_programmeren\C#\DevDaCa\PokemonBattleSimulator\obj\Debug\net8.0\ref\PokemonBattleSimulator.dll
