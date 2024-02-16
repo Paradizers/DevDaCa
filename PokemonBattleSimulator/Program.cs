@@ -1,4 +1,5 @@
-﻿namespace PokemonBattleSimulator
+﻿
+namespace PokemonBattleSimulator
 {
     internal class Program
     {
@@ -11,27 +12,31 @@
             //Console.WriteLine(pikachu.GetType());
             Console.WriteLine("Welcome to the Pokemon Battle Simulator!");
 
-            Console.WriteLine("Please enter the name of your Charmander: ");
+            /*Console.WriteLine("Please enter the name of your Charmander: ");*/
             string name = Console.ReadLine();
 
             // bool isRunning
             Charmander charmander = new Charmander(name, "Fire", "Water");
             while (true) // isRunning = true
             {
-                charmander.DoBattleCry(10);
-                Console.WriteLine("Please enter the name of your Charmander: ");
+                /*charmander.DoBattleCry(10);
+                Console.WriteLine("Please enter the name of your Charmander: ");*/
+                /*PokemonBattleSimulator.Trainer trainer = new Trainer();
+                trainer.TrainerFight();*/
                 Console.WriteLine("Do you want to quit, type yes");
                 charmander.Nickname = Console.ReadLine();
                 if (charmander.Nickname == "yes")
                 {
                     break;
                 }
+                
 
                 // isRunning = false;
             }
 
         }
     }
+
     /*class Pokemon
     {
         public string name;
