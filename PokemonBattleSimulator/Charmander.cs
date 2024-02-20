@@ -6,7 +6,7 @@ public class Charmander
 
     public string Strength { get; }
     public string Weakness { get; }
-
+    // constructor
     public Charmander(string nickname, string strength, string weakness)
     {
         Nickname = nickname;

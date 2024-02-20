@@ -16,22 +16,24 @@ namespace PokemonBattleSimulator
             string name = Console.ReadLine();
 
             // bool isRunning
+            Trainer trainer1 = new Trainer();
+            Trainer trainer2 = new Trainer();
             Charmander charmander = new Charmander(name, "Fire", "Water");
             while (true) // isRunning = true
             {
+                Trainer.CreateTrainer();
                 /*charmander.DoBattleCry(10);
                 Console.WriteLine("Please enter the name of your Charmander: ");*/
                 /*PokemonBattleSimulator.Trainer trainer = new Trainer();
-                trainer.TrainerFight();*/
+                trainer.CreateTrainer();*/
+
                 Console.WriteLine("Do you want to quit, type yes");
                 charmander.Nickname = Console.ReadLine();
                 if (charmander.Nickname == "yes")
                 {
                     break;
                 }
-                
-
-                // isRunning = false;
+               
             }
 
         }

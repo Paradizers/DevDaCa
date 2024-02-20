@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class Trainer
 {
-	void TrainerFight()
+	void CreateTrainer()
 	{
         Console.WriteLine("What is Trainer1 his name?");
         string Trainer1 = Console.ReadLine();
@@ -10,11 +11,7 @@ public class Trainer
         Console.WriteLine("What is Trainer2 his name?");
         string Trainer2 = Console.ReadLine();
 
-        string[] PokemonNames = { "Pikachu", "Sableye", "Bulbasaur", "Squirtle","Meowth", "Bobbafett", "Charizard", "Greninja", "Lucario", "Talonflame", "Froki", "Garchomp" };
-        for  (int i = 0; i < PokemonNames.Length; i++)
-        {
-            Console.WriteLine(PokemonNames[i]);
-        }
+
         List<Pokeball> beltTrainer1 = new List<Pokeball>();
         for (int i = 0; i < 6; i++)
         {   
