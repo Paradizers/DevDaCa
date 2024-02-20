@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 public class Trainer
-{
+{   // create trainer
 	void CreateTrainer()
 	{
         Console.WriteLine("What is Trainer1 his name?");
