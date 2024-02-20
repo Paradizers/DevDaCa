@@ -12,7 +12,7 @@ namespace PokemonBattleSimulator
             //Console.WriteLine(pikachu.GetType());
             Console.WriteLine("Welcome to the Pokemon Battle Simulator!");
 
-            /*Console.WriteLine("Please enter the name of your Charmander: ");*/
+            // Console.WriteLine("Please enter the name of your Charmander: ");
             string name = Console.ReadLine();
 
             // bool isRunning
