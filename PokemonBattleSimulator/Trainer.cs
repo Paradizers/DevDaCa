@@ -2,30 +2,29 @@
 using System.Collections.Generic;
 
 public class Trainer
-{   // create trainer
-	void CreateTrainer()
-	{
-        Console.WriteLine("What is Trainer1 his name?");
-        string Trainer1 = Console.ReadLine();
-
-        Console.WriteLine("What is Trainer2 his name?");
-        string Trainer2 = Console.ReadLine();
-
-
-        List<Pokeball> beltTrainer1 = new List<Pokeball>();
-        for (int i = 0; i < 6; i++)
-        {   
-            Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
-            Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
-            beltTrainer1.Add(pokeball);
-        }
-
-        List<Pokeball> beltTrainer2 = new List<Pokeball>();
-        for (int i = 0; i < 6; i++)
-        {
-            Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
-            Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
-            beltTrainer2.Add(pokeball);
-        }
+{   
+    public List<Pokeball> belt;
+    public string trainername;
+    public Trainer(List<Pokeball> belt, string trainername)
+    {
+        this.belt = belt;
+        this.trainername = trainername;
     }
+    
+    public bool Throw()
+    {
+       
+        Pokeball pokeball = belt[0];
+        bool isOpen = true;
+        Console.WriteLine(trainername + "Throws a Charmander!");
+        return isOpen;
+    }
+    public bool ReturnPokemon()
+    {
+        bool isOpen = false;
+        Console.WriteLine(trainername + "returns to its Pokeball.");
+        return isOpen;
+        
+    }
+
 }
