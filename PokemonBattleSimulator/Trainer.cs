@@ -12,6 +12,15 @@ public class Trainer
         string Trainer2 = Console.ReadLine();
 
 
+        try
+        {
+
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
         List<Pokeball> beltTrainer1 = new List<Pokeball>();
         for (int i = 0; i < 6; i++)
         {   

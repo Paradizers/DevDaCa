@@ -5,23 +5,17 @@ namespace PokemonBattleSimulator
     {
         static void Main(string[] args)
         {
-            //Pokemon pikachu = new Pokemon("Sparky", "Electric");
-            //pikachu.setName("Sparky");
-            //pikachu.setType("Electric");
-            //Console.WriteLine(pikachu.GetName());
-            //Console.WriteLine(pikachu.GetType());
             Console.WriteLine("Welcome to the Pokemon Battle Simulator!");
-
             // Console.WriteLine("Please enter the name of your Charmander: ");
             string name = Console.ReadLine();
 
-            // bool isRunning
+           
             Trainer trainer1 = new Trainer();
             Trainer trainer2 = new Trainer();
             Charmander charmander = new Charmander(name, "Fire", "Water");
-            while (true) // isRunning = true
+            while (true)
             {
-                Trainer.CreateTrainer();
+                // Trainer.CreateTrainer();
                 /*charmander.DoBattleCry(10);
                 Console.WriteLine("Please enter the name of your Charmander: ");*/
                 /*PokemonBattleSimulator.Trainer trainer = new Trainer();
