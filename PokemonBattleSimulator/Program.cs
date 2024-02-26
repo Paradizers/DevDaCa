@@ -40,7 +40,7 @@
                     int counter = 1;
                     for (int i = 0; i < 6; i++)
                     {
-                        Console.WriteLine("Round" + counter);
+                        Console.WriteLine("Round " + counter);
                         trainer1.Throw();
                         trainer1.belt[i].pokemon1.DoBattleCry(1);
 
@@ -49,6 +49,7 @@
 
                         trainer1.ReturnPokemon();
                         trainer2.ReturnPokemon();
+                        counter++;
                     }
 
                     Console.WriteLine("Do you want to quit? Type 'yes' to quit.");
@@ -59,6 +60,37 @@
                     }
                 }
             }
+        CreateTrainer();
         }
     }
 }
+
+/*class Pokemon
+    {
+        public string name;
+        public string type;
+
+        public Pokemon(string name, string type)
+        {
+            this.name = name;
+            this.type = type;
+        }
+        public string GetName()
+        {
+            return name;
+        }
+
+        public void setName(string name)
+        {
+            this.name = name;
+        }
+
+        public string GetType()
+        {
+            return type;
+        }
+        public string setType(string type)
+        {
+            return type;
+        }
+    }*/

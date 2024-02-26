@@ -16,13 +16,13 @@ public class Trainer
        
         Pokeball pokeball = belt[0];
         bool isOpen = true;
-        Console.WriteLine(trainername + "Throws a Charmander!");
+        Console.WriteLine(trainername + " Throws a Charmander!");
         return isOpen;
     }
     public bool ReturnPokemon()
     {
         bool isOpen = false;
-        Console.WriteLine(trainername + "returns to its Pokeball.");
+        Console.WriteLine(trainername + " his Charmander returns to its Pokeball.");
         return isOpen;
         
     }
