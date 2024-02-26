@@ -6,8 +6,6 @@
         {
             Console.WriteLine("Welcome to the Pokemon Battle Simulator!");
 
-            /*string name = Console.ReadLine();*/
-
             void CreateTrainer()
             {
                 Console.WriteLine("What is Trainer1's name?");
