@@ -5,9 +5,9 @@ public class Pokeball
     public int Catchrate;
     public string color;
     public bool isOpen;
-    public Charmander pokemon1;
+    public Pokemon pokemon1;
 
-    public Pokeball(int catchrate, string color, Charmander pokemon1)
+    public Pokeball(int catchrate, string color, Pokemon pokemon1)
     {
         this.Catchrate = catchrate;
         this.color = color;

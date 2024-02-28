@@ -20,6 +20,10 @@
                     Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
                     Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
                     beltTrainer1.Add(pokeball);
+
+                    Squirtle sq = new Squirtle();
+                    Pokeball pokeball = new Pokeball(80, "blue", sq);
+
                 }
 
                 List<Pokeball> beltTrainer2 = new List<Pokeball>();
@@ -27,6 +31,7 @@
                 {
                     Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
                     Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
+
                     beltTrainer2.Add(pokeball);
                 }
 
