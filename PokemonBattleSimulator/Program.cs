@@ -17,15 +17,15 @@
                 List<Pokeball> beltTrainer1 = new List<Pokeball>();
                 for (int i = 0; i < 2; i++)
                 {
-                    Charmander ch = new Charmander("");
+                    Charmander ch = new Charmander("Charmander", "Fire","Water");
                     Pokeball pokeball = new Pokeball(80, ch);
                     beltTrainer1.Add(pokeball);
 
-                    Squirtle sq = new Squirtle();
+                    Squirtle sq = new Squirtle("Squirtle", "Water", "Leaf");
                     Pokeball pokeball2 = new Pokeball(80, sq);
                     beltTrainer1.Add(pokeball2);
 
-                    Bulbasaur br = new Bulbasaur();
+                    Bulbasaur br = new Bulbasaur("Bulbasaur", "Grass", "Fire");
                     Pokeball pokeball3 = new Pokeball(80, br);
                     beltTrainer1.Add(pokeball3);
 
@@ -34,15 +34,15 @@
                 List<Pokeball> beltTrainer2 = new List<Pokeball>();
                 for (int i = 0; i < 2; i++)
                 {
-                    Charmander ch = new Charmander();
+                    Charmander ch = new Charmander("Flamey", "Fire", "Water");
                     Pokeball pokeball = new Pokeball(80, ch);
                     beltTrainer2.Add(pokeball);
 
-                    Squirtle sq = new Squirtle();
+                    Squirtle sq = new Squirtle("Squirtle", "Water", "Leaf");
                     Pokeball pokeball2 = new Pokeball(80, sq);
                     beltTrainer2.Add(pokeball2);
 
-                    Bulbasaur br = new Bulbasaur();
+                    Bulbasaur br = new Bulbasaur("Bulbasaur", "Grass", "Fire");
                     Pokeball pokeball3 = new Pokeball(80, br);
                     beltTrainer2.Add(pokeball3);
 
