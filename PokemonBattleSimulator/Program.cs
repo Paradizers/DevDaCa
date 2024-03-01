@@ -15,24 +15,37 @@
                 string Trainer2 = Console.ReadLine();
 
                 List<Pokeball> beltTrainer1 = new List<Pokeball>();
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < 2; i++)
                 {
-                    Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
-                    Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
+                    Charmander ch = new Charmander();
+                    Pokeball pokeball = new Pokeball(80, "rood", ch);
                     beltTrainer1.Add(pokeball);
 
                     Squirtle sq = new Squirtle();
-                    Pokeball pokeball = new Pokeball(80, "blue", sq);
+                    Pokeball pokeball2 = new Pokeball(80, "blue", sq);
+                    beltTrainer1.Add(pokeball2);
+
+                    Bulbasaur br = new Bulbasaur();
+                    Pokeball pokeball3 = new Pokeball(80,"white", br);
+                    beltTrainer1.Add(pokeball3);
 
                 }
 
                 List<Pokeball> beltTrainer2 = new List<Pokeball>();
                 for (int i = 0; i < 6; i++)
                 {
-                    Charmander pokemon1 = new Charmander("Charmander", "Fire", "Water");
-                    Pokeball pokeball = new Pokeball(80, "rood", pokemon1);
-
+                    Charmander ch = new Charmander();
+                    Pokeball pokeball = new Pokeball(80, "rood", ch);
                     beltTrainer2.Add(pokeball);
+
+                    Squirtle sq = new Squirtle();
+                    Pokeball pokeball2 = new Pokeball(80, "blue", sq);
+                    beltTrainer2.Add(pokeball2);
+
+                    Bulbasaur br = new Bulbasaur();
+                    Pokeball pokeball3 = new Pokeball(80,"white", br);
+                    beltTrainer2.Add(pokeball3);
+
                 }
 
                 Trainer trainer1 = new Trainer(beltTrainer1, Trainer1);

@@ -8,12 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df0341e9-984d-4d74-97dc-b4ac75c55bfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bulbasaur.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Squirtle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PokemonBattleSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokemonBattleSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charmander.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Charmander.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokeball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pokeball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pokemon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +89,8 @@
       <workItem from="1708428405864" duration="3000" />
       <workItem from="1708430887182" duration="1848000" />
       <workItem from="1708433282812" duration="2488000" />
+      <workItem from="1709281375475" duration="1228000" />
+      <workItem from="1709282707922" duration="1862000" />
     </task>
     <servers />
   </component>
@@ -103,24 +100,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/Program.cs" initialLine="28" containingFunctionPresentation="Local function 'CreateTrainer'">
-            <startOffsets>
-              <option value="1200" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1255" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
