@@ -9,8 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df0341e9-984d-4d74-97dc-b4ac75c55bfb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PokemonBattleSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PokemonBattleSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokeball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pokeball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bulbasaur.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bulbasaur.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Charmander.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Charmander.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Squirtle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Squirtle.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.PokemonBattleSimulator.executor": "Debug",
+    ".NET Project.PokemonBattleSimulator.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -92,7 +92,7 @@
       <workItem from="1708430887182" duration="1848000" />
       <workItem from="1708433282812" duration="2488000" />
       <workItem from="1709281375475" duration="1228000" />
-      <workItem from="1709282707922" duration="3644000" />
+      <workItem from="1709282707922" duration="6585000" />
     </task>
     <servers />
   </component>
