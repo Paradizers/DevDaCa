@@ -11,18 +11,17 @@ public class Trainer
         this.trainername = trainername;
     }
     
-    public bool Throw()
+    public Pokemon Throw(int i)
     {
-       
-        Pokeball pokeball = belt[0];
-        bool isOpen = true;
-        Console.WriteLine(trainername + " Throws a Charmander!");
-        return isOpen;
+        Pokeball pokeball = belt[i];
+        pokeball.isOpen = true;
+        Console.WriteLine(trainername + " Throws a " + pokeball.pokemon1.Nickname);
+        return pokeball.pokemon1;
     }
-    public bool ReturnPokemon()
+    public bool ReturnPokemon(Pokemon pokemonToReturn)
     {
         bool isOpen = false;
-        Console.WriteLine(trainername + " his Charmander returns to its Pokeball.");
+        Console.WriteLine(trainername + " his" + pokemonToReturn.Nickname + " returns to its Pokeball.");
         return isOpen;
         
     }

@@ -34,7 +34,7 @@
                 List<Pokeball> beltTrainer2 = new List<Pokeball>();
                 for (int i = 0; i < 2; i++)
                 {
-                    Charmander ch = new Charmander("Flamey", "Fire", "Water");
+                    Charmander ch = new Charmander("Charmander", "Fire", "Water");
                     Pokeball pokeball = new Pokeball(80, ch);
                     beltTrainer2.Add(pokeball);
 
@@ -57,14 +57,14 @@
                     for (int i = 0; i < 6; i++)
                     {
                         Console.WriteLine("Round " + counter);
-                        trainer1.Throw();
+                        Pokemon thrownPokemon = trainer1.Throw(i);
                         trainer1.belt[i].pokemon1.DoBattleCry(1);
 
-                        trainer2.Throw();
+                        Pokemon thrownPokemon2 = trainer2.Throw(i);
                         trainer2.belt[i].pokemon1.DoBattleCry(1);
 
-                        trainer1.ReturnPokemon();
-                        trainer2.ReturnPokemon();
+                        trainer1.ReturnPokemon(thrownPokemon);
+                        trainer2.ReturnPokemon(thrownPokemon2);
                         counter++;
                     }
 

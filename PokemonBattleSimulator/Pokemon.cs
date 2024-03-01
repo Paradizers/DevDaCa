@@ -15,11 +15,6 @@ public abstract class Pokemon
 	}
 
 	// hier maak een  die functie aantal keer een string print
-	public void DoBattleCry(int times)
-	{
-		for (int i = 0; i < times; i++)
-		{
-			Console.WriteLine($"{Nickname} says: {Nickname}!");
-		}
-	}
+	public abstract void DoBattleCry(int times);
+	
 }
