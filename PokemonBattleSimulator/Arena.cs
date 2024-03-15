@@ -2,7 +2,7 @@
 
 public class Arena
 {
-	public Arena()
-	{
-	}
+    public static int roundsFought = 0;
+    public static int battlesFought = 0;
+
 }

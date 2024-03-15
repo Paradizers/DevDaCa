@@ -51,6 +51,7 @@
                 Trainer trainer1 = new Trainer(beltTrainer1, Trainer1);
                 Trainer trainer2 = new Trainer(beltTrainer2, Trainer2);
 
+
                 while (true)
                 {
                     int counter = 1;
@@ -77,6 +78,7 @@
                 }
             }
         CreateTrainer();
+        
         }
     }
 }
