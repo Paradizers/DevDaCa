@@ -1,13 +1,14 @@
-﻿using System;
+﻿using PokemonBattleSimulator;
+using System;
 
 public abstract class Pokemon
 {
 	public string Nickname;
 
-	public string Strength { get; }
-	public string Weakness { get; }
+	public Energytypes Strength { get; }
+	public Energytypes Weakness { get; }
 	// constructor
-	public Pokemon(string nickname, string strength, string weakness)
+	public Pokemon(string nickname, Energytypes strength, Energytypes weakness)
 	{
 		Nickname = nickname;
 		Strength = strength;

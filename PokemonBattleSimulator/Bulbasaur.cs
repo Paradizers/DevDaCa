@@ -2,7 +2,7 @@ namespace PokemonBattleSimulator;
 
 internal class Bulbasaur : Pokemon
 {
-    public Bulbasaur(string nickname, string strength, string weakness) : base(nickname, strength, weakness)
+    public Bulbasaur(string nickname, Energytypes strength, Energytypes weakness) : base(nickname, strength, weakness)
     {
     }
     public override void DoBattleCry(int times)

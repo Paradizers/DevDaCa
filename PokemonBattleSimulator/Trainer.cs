@@ -21,7 +21,7 @@ public class Trainer
     public bool ReturnPokemon(Pokemon pokemonToReturn)
     {
         bool isOpen = false;
-        Console.WriteLine(trainername + " his" + pokemonToReturn.Nickname + " returns to its Pokeball.");
+        Console.WriteLine(trainername + " his " + pokemonToReturn.Nickname + " returns to its Pokeball.");
         return isOpen;
         
     }

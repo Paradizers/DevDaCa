@@ -6,25 +6,11 @@ using System.Threading.Tasks;
 
 namespace PokemonBattleSimulator
 {
-    enum Energytypes
+    public enum Energytypes
     {
         Fire,
         Water,
         Grass,
-        Electric,
-        Psychic,
-        Dark,
-        Fighting,
-        Dragon,
-        Fairy,
-        Normal,
-        Flying,
-        Poison,
-        Ground,
-        Rock,
-        Bug,
-        Ghost,
-        Steel,
-        Ice
+        Leaf
     }
 }

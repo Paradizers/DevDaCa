@@ -19,15 +19,15 @@ namespace PokemonBattleSimulator
                 List<Pokeball> beltTrainer1 = new List<Pokeball>();
                 for (int i = 0; i < 2; i++)
                 {
-                    Charmander ch = new Charmander("Charmander", "Fire","Water");
+                    Charmander ch = new Charmander("Charmander", Energytypes.Fire, Energytypes.Water);
                     Pokeball pokeball = new Pokeball(80, ch);
                     beltTrainer1.Add(pokeball);
 
-                    Squirtle sq = new Squirtle("Squirtle", "Water", "Leaf");
+                    Squirtle sq = new Squirtle("Squirtle", Energytypes.Water, Energytypes.Leaf);
                     Pokeball pokeball2 = new Pokeball(80, sq);
                     beltTrainer1.Add(pokeball2);
 
-                    Bulbasaur br = new Bulbasaur("Bulbasaur", "Grass", "Fire");
+                    Bulbasaur br = new Bulbasaur("Bulbasaur", Energytypes.Grass, Energytypes.Fire);
                     Pokeball pokeball3 = new Pokeball(80, br);
                     beltTrainer1.Add(pokeball3);
 
@@ -36,15 +36,15 @@ namespace PokemonBattleSimulator
                 List<Pokeball> beltTrainer2 = new List<Pokeball>();
                 for (int i = 0; i < 2; i++)
                 {
-                    Charmander ch = new Charmander("Charmander", "Fire", "Water");
+                    Charmander ch = new Charmander("Charmander", Energytypes.Fire, Energytypes.Water);
                     Pokeball pokeball = new Pokeball(80, ch);
                     beltTrainer2.Add(pokeball);
 
-                    Squirtle sq = new Squirtle("Squirtle", "Water", "Leaf");
+                    Squirtle sq = new Squirtle("Squirtle", Energytypes.Water, Energytypes.Leaf);
                     Pokeball pokeball2 = new Pokeball(80, sq);
                     beltTrainer2.Add(pokeball2);
 
-                    Bulbasaur br = new Bulbasaur("Bulbasaur", "Grass", "Fire");
+                    Bulbasaur br = new Bulbasaur("Bulbasaur", Energytypes.Grass, Energytypes.Fire);
                     Pokeball pokeball3 = new Pokeball(80, br);
                     beltTrainer2.Add(pokeball3);
 
@@ -61,11 +61,27 @@ namespace PokemonBattleSimulator
                     for (int i = 0; i < 6; i++)
                     {
                         Console.WriteLine("Round " + counter);
+                        trainer1.belt.RemoveAt(i);
+                        trainer2.belt.RemoveAt(i);
+
                         Pokemon thrownPokemon = trainer1.Throw(i);
                         trainer1.belt[i].pokemon1.DoBattleCry(1);
 
                         Pokemon thrownPokemon2 = trainer2.Throw(i);
                         trainer2.belt[i].pokemon1.DoBattleCry(1);
+
+                        if (trainer1.belt[i].pokemon1.Strength == trainer2.belt[i].pokemon1.Strength)
+                        {
+                            Console.WriteLine("Draw");
+                        }
+                        else if (trainer1.belt[i].pokemon1.Strength == trainer2.belt[i].pokemon1.Weakness)
+                        {
+                            Console.WriteLine(trainer1.trainername + " wins this round!");
+                        }
+                        else
+                        {
+                            Console.WriteLine(trainer2.trainername + " wins this round!");
+                        }
 
                         trainer1.ReturnPokemon(thrownPokemon);
                         trainer2.ReturnPokemon(thrownPokemon2);
