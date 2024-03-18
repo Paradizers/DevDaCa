@@ -1,4 +1,6 @@
-﻿namespace PokemonBattleSimulator
+﻿using ListRandomizer;
+
+namespace PokemonBattleSimulator
 {
     internal class Program
     {
@@ -51,7 +53,8 @@
                 Trainer trainer1 = new Trainer(beltTrainer1, Trainer1);
                 Trainer trainer2 = new Trainer(beltTrainer2, Trainer2);
 
-
+                trainer1.belt.Shuffle();
+                trainer2.belt.Shuffle();
                 while (true)
                 {
                     int counter = 1;
