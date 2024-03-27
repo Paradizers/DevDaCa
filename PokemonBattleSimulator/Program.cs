@@ -52,14 +52,12 @@ namespace PokemonBattleSimulator
 
                 Trainer trainer1 = new Trainer(beltTrainer1, Trainer1);
                 Trainer trainer2 = new Trainer(beltTrainer2, Trainer2);
-
+                Battle battle = new Battle();
                 trainer1.belt.Shuffle();
                 trainer2.belt.Shuffle();
-                Battle.StartBattle(trainer1, trainer2);
-                Arena.ShowScoreboard();
+                battle.StartBattle(trainer1, trainer2);
             }
         CreateTrainer();
-        
         }
     }
 }
