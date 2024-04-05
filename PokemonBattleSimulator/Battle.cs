@@ -41,14 +41,12 @@ public class Battle{
                     Console.WriteLine(trainer1.trainername + " wins this round!");
                     Console.WriteLine(trainer2.trainername + " loses a Pokemon");
                     trainer1_score += 1;
-                    trainer2_score = 0;
                 }
                 else
                 {
                     Console.WriteLine(trainer2.trainername + " wins this round!");
                     Console.WriteLine(trainer1.trainername + " loses a Pokemon");
                     trainer2_score += 1;
-                    trainer1_score = 0;
                 }
                 trainer1.ReturnPokemon(thrownPokemon);
                 trainer2.ReturnPokemon(thrownPokemon2);
